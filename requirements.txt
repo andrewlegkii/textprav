@@ -1,0 +1,9 @@
+beautifulsoup4==4.10.0
+flask==2.1.1
+pymorphy2==0.9.1
+pymorphy2-dicts==2.4.393442.3710985
+pytelegrambotapi==3.8.1
+click==8.0.1
+flask==2.1.1
+telebot==0.0.4
+psycopg2

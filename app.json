@@ -1,0 +1,20 @@
+{
+    "name": "telegram-bot",
+    "description": "Telegram bot to check grammar, punctuation, spelling, syntax errors",
+    "repository": "https://github.com/yourusername/telegram-bot",
+    "env": {
+      "TELEGRAM_BOT_TOKEN": {
+        "description": "Telegram bot token",
+        "required": true
+      }
+    },
+    "addons": [
+      "heroku-postgresql"
+    ],
+    "buildpacks": [
+      {
+        "url": "heroku/python"
+      }
+    ]
+  }
+  
